@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Add bootstrap4 elements -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Forms</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Basic Form with Client-Side-Validation</h2>
+        <br>
+
+        <form action="#" class="main-form needs-validation" novalidate></form>
+
+
+        <div class="form-group">
+            <label for="name">First Name</label>
+            <input type="text" name="firstname" id="firstname" class="form-control" aria-describedby="helpId" required>
+            <small id="helpId" class="text-muted">Enter your name as on your ID</small>
+        </div>
+        <div class="form-group">
+            <label for="surname">Surname</label>
+            <input type="text" name="surname" id="surname" class="form-control" placeholder="" aria-describedby="helpId">
+            <small id="helpId" class="text-muted">Enter your surname/lastname</small>
+        </div>
+
+
+        <div>
+            <button type="submit" class="btn btn-success">Submit</button>
+        </div>
+
+        <div class="form-group">
+            <label for="results">results</label>
+            <textarea class="form-control" name="results" id="results rows=" 3 "></textarea>
+        </div>
+    </form>
+</div>
+</body>
